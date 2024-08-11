@@ -44,3 +44,24 @@ body{
 .saiah img{
     transform: rotate(360deg); 
 }
+
+.profile-info h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.service{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(37, 73, 214, 0.18);
+}
+.service img{
+    width: 60%;
+    margin: 5px;
+}
+.service small{
+    padding-top: 15px;
+    display: block;
+}
