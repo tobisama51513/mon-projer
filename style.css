@@ -6,12 +6,12 @@
 body{
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(images/pexels-gdtography-277628-911738.jpg);
+    background-image: url(images/white\ backgrond.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
 }
 .profile{
-    width: 40;
+    width: 40%;
     float: right;
 }
 .profile img{
@@ -121,23 +121,11 @@ body{
     margin-bottom: 30px;
     color: gray;
 }
-
-
-@media only screen and (max-width:900xp){
-    .profile-info{
-        width: 95%;
-        .profile{
-            width: 95%;
-        }
-        .profile img{
-            width: 90%;
-        }
-        .service{
-            width: 95%;
-            margin-bottom:15px;
-        }
-        .con span{
-            font-size: 10px;
-        }
-    }
+.service{ 
+    width: 50%;
+    margin-bottom:5px;
+}
+.projects{
+    width: 100%;
+    margin-bottom: 15px;
 }
