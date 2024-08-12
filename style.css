@@ -6,6 +6,9 @@
 body{
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(images/pexels-gdtography-277628-911738.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
 }
 .profile{
     width: 40;
