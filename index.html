@@ -57,18 +57,13 @@
 <!-- Form Email -->
  <div class="form-box">
     <h2> Contact Me </h2>
-    <form>
-        <div class="input-group">
-            <input type="text" placeholder="First name" id="name" autocomplete="off">
-            <input type="email" placeholder="Email" id="email" autocomplete="off" >
-
-        <div class="input-group">
-            <input type="text" placeholder="Subject" id="subject" autocomplete="off">
-        <div class="text-area">
-            <textarea id="message" rows="4" placeholder="Write your message  "></textarea>
-        </div>
-        <button id="btn">Send message</button>
-    </form>
+    <form action="https://formsubmit.co/djilalighani50@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New email woooo!">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="hidden" name="_next" value="https://gani-tobi.com/pages/.html">
+        <input type="text" name="message" placeholder="Write your message here" required>
+        <button type="submit">Send</button>
+   </form>
  </div>
     <!--link of game-->
     <div class="link of game "></div>
@@ -97,31 +92,10 @@
 <a href="https://www.youtube.com/@djilalighani628">
     my Youtube chanel 
 </a>
-</body>
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
+<h1>
 
-<script>
-    var btn = document.getElementById('submit')
-    submit.addEventListener('click',function(e){
-        e.preventDefault()
-        var name = document.getElementById('name')
-        var email = document.getElementById('email')
-        var btn = document.getElementById('btn')
-        var message = document.getElementById('message')
-        var body = 'name: ' +name + '<br/> emai: ' email + '<br/> subject' +
-        subject +'<br/> message' + message;
-        Email.send({
-    Host : "smtp.gmail.com",
-    Username : "djilalighani435@gmail.com",
-    Password : "alger2019",
-    To : 'djilalighani435@gmail.com',
-    From : email,
-    Subject : btn,
-    Body : body
-}).then(
-  message => alert(message)
-);
-    })
-</script>
+    
+</h1>
+<small>I am a 15 year old human being, I love exploring the world around me and learning new things every day. I have a great passion for technology and love delving into the fields of programming and innovation. I also enjoy reading books, especially those related to science and science fiction. I love sports, and I play football regularly. I dream of achieving great achievements in the future and contributing to making the world a better place. </small>
+</body>
 </html>
